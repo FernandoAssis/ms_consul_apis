@@ -1,0 +1,9 @@
+server:
+  port: 8089
+
+spring: 
+  cloud:
+    consul:
+      discovery:
+        service-name: produto-api
+        tags: produto,produto-api

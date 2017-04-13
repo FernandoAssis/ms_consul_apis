@@ -1,0 +1,11 @@
+#HTTP port config
+server:
+  port: 8088
+
+# Spring cloud configurations
+spring:
+  cloud:
+    consul:
+      discovery:
+        service-name: cliente-api
+        tags: cliente,cliente-api
