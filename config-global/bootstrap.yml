@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      config:
+        enabled: true
+        format: FILE # YAML or PROPERTIES
+        prefix: global-config
+        enabled: true
+
+    config:
+      server:
+        git:
+          uri: https://github.com/FernandoAssis/ms_consul_apis
+          

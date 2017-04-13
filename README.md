@@ -38,12 +38,14 @@ Instalação:
 $ mvn clean install spring-boot:run
 ```
 
-TODO: implementar spring-cloud-consul-config
-TODO: implementar circuit-break
-TODO: associar APIs ao kong
-TODO: realizar integração oauth2 (google)
+> TODO: implementar spring-cloud-consul-config
+> TODO: implementar circuit-break Hystrix 
+> TODO: associar APIs ao kong
+> TODO: realizar integração oauth2 (google)
+> TODO: implementar spring cloud bus
 
 ##### Referências:
 - http://blog.trifork.com/2016/12/14/service-discovery-using-consul-and-spring-cloud/
 - https://docs.docker.com/compose/overview/
+- https://github.com/spring-cloud/spring-cloud-consul/blob/master/docs/src/main/asciidoc/spring-cloud-consul.adoc#install-consul
 

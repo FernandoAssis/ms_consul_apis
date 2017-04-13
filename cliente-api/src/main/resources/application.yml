@@ -6,6 +6,9 @@ server:
 spring:
   cloud:
     consul:
+      host: localhost
+      port: 8500
+      enabled: true
       discovery:
         service-name: cliente-api
         tags: cliente,cliente-api
